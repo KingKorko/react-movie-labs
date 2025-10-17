@@ -71,6 +71,7 @@ export default function MovieCard(props) {
         <FavoriteIcon color="primary" fontSize="large" />
     </IconButton>
 
+
                 <Link to={`/movies/${movie.id}`}>
           <Button variant="outlined" size="medium" color="primary">
             More Info ...
